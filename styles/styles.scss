@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: url(../images/bg-desktop.svg);
+    background-color: #5f3892;
+    padding: 50px 150px 20px;
+    height: 100vh;
+
+
+    .header-wrapper {
+        margin-bottom: 80px;
+
+        .logo-wrapper {
+            max-width: 200px;
+
+            .logo {
+                width: 100%;
+            }
+        }
+    }
+
+    .main-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+
+        .mockups-wrapper {
+            width: 900px;
+            min-width: 800px;
+            margin-right: 100px;
+
+            .mockups-img {
+                width: 100%;
+            }
+        }
+
+        .introduction-wrapper {
+            padding: 50px 0;
+            max-width: 600px;
+            color: #FFF;
+
+            .introduction-title {
+                font-size: 3rem;
+                text-transform: capitalize;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+
+            .introduction-content {
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 2.2rem;
+                margin-bottom: 30px;
+            }
+
+            .register-button {
+                padding: 15px 70px;
+                border-radius: 30px;
+                border: none;
+                box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.2);
+                font-size: 1.2rem;
+                color: #5f3892;
+            }
+        }
+    }
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        .icons-wrapper {
+
+            .icon {
+                margin: 5px;
+                color: white;
+                border-radius: 50%;
+                border: 1px #FFF solid;
+                padding: 10px
+            }
+
+            .fab.fa-facebook-f.icon, .fab.fa-instagram.icon {
+                padding:10px 12px;
+            }
+        }
+    }
+}

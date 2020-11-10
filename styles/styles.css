@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/bg-desktop.svg);
+  background-color: #5f3892;
+  padding: 50px 150px 20px;
+  height: 100vh;
+}
+
+body .header-wrapper {
+  margin-bottom: 80px;
+}
+
+body .header-wrapper .logo-wrapper {
+  max-width: 200px;
+}
+
+body .header-wrapper .logo-wrapper .logo {
+  width: 100%;
+}
+
+body .main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+body .main-wrapper .mockups-wrapper {
+  width: 900px;
+  min-width: 800px;
+  margin-right: 100px;
+}
+
+body .main-wrapper .mockups-wrapper .mockups-img {
+  width: 100%;
+}
+
+body .main-wrapper .introduction-wrapper {
+  padding: 50px 0;
+  max-width: 600px;
+  color: #FFF;
+}
+
+body .main-wrapper .introduction-wrapper .introduction-title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+body .main-wrapper .introduction-wrapper .introduction-content {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+  margin-bottom: 30px;
+}
+
+body .main-wrapper .introduction-wrapper .register-button {
+  padding: 15px 70px;
+  border-radius: 30px;
+  border: none;
+  -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  color: #5f3892;
+}
+
+body .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .footer-wrapper .icons-wrapper .icon {
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+  border: 1px #FFF solid;
+  padding: 10px;
+}
+
+body .footer-wrapper .icons-wrapper .fab.fa-facebook-f.icon, body .footer-wrapper .icons-wrapper .fab.fa-instagram.icon {
+  padding: 10px 12px;
+}
+/*# sourceMappingURL=styles.css.map */
