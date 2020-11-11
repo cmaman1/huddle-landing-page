@@ -39,8 +39,7 @@ body .main-wrapper {
 }
 
 body .main-wrapper .mockups-wrapper {
-  max-width: 900px;
-  min-width: 800px;
+  min-width: 950px;
   margin-right: 80px;
 }
 
