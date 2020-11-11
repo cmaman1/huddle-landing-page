@@ -35,7 +35,7 @@ body .main-wrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 body .main-wrapper .mockups-wrapper {
