@@ -11,8 +11,10 @@
 
 body {
     background: url(../images/bg-desktop.svg);
-    background-color: #5f3892;
-    padding: 50px 150px 20px;
+    background-color: #674BB1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 150px 0px 150px;
     height: 100vh;
 
 
@@ -30,15 +32,14 @@ body {
 
     .main-wrapper {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
 
 
         .mockups-wrapper {
-            width: 900px;
+            max-width: 900px;
             min-width: 800px;
-            margin-right: 100px;
+            margin-right: 80px;
 
             .mockups-img {
                 width: 100%;
@@ -92,6 +93,43 @@ body {
             .fab.fa-facebook-f.icon, .fab.fa-instagram.icon {
                 padding:10px 12px;
             }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    :root {
+        font-size: 14px;
+    }
+
+    body {
+        padding: 80px 50px;
+        background: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: #674BB1;
+        background-size: cover;
+        .main-wrapper {
+            flex-direction: column;
+            margin-bottom: 50px;
+    
+            .mockups-wrapper {
+                min-width: 0 !important;
+                width: 100%;
+    
+                .mockups-img {
+                    width: 100%;
+                }
+            }
+    
+            .introduction-wrapper {
+                text-align: center;
+            }
+            
+        }
+        .footer-wrapper {
+            justify-content: center !important;
+            margin-bottom: 20px;
         }
     }
 }
